@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: aqua;
+}
+
+.head {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.para {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form-div {
+  max-width: 50%;
+  margin: 1.1em auto;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
+  padding: 1.2em;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.names div {
+  width: 48%;
+}
+
+.form-fills div {
+  margin: 0.6em 0;
+}
+
+.form-fills input,
+.form-fills select {
+  display: block;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.comms textarea {
+  font-family: "Mulish", sans-serif;
+  display: block;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.form-fills input[type="radio"],
+.form-fills input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.radios,
+.checks {
+  display: block;
+  margin: 0.3em 0;
+  font-weight: 400;
+}
+
+.sub {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+.sub:hover {
+  background-color: white;
+  color: cadetblue;
+  cursor: pointer;
+  border: 2px solid cadetblue;
+}
